@@ -35,5 +35,13 @@ print(playerName)
 
 ## Why does Swift have variables?
 
+In Swift, variables are essential for storing and transforming temporary information in programs. They allow you to hold user inputs, downloaded data, or results from calculations. Variables are created with var and can be changed freely without reusing var, as seen in:
 
+```swift
+var favoriteShow = "Orange is the New Black"
+favoriteShow = "The Good Place"
+favoriteShow = "Doctor Who"
+```
+
+Using var repeatedly to declare the same variable will cause errors, as Swift expects clear intent—either modifying an existing variable or creating a new one with a unique name. While variables are central to Swift programs, there are cases where they’re best avoided, which will be explained further in advanced concepts.
 
