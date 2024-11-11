@@ -30,7 +30,7 @@ In Swift, text assigned to a constant or variable is called a string, defined by
 Swift provides several tools for working with strings:
 
 - ```.count```: Returns the number of characters in a string.
-- ```.uppercased()````: Converts all letters to uppercase.
+- ```.uppercased()```: Converts all letters to uppercase.
 - ```.hasPrefix()``` and .hasSuffix(): Checks if a string starts or ends with specified characters.
 
 These functions demonstrate the basics of Swift’s string manipulation, which is extensive and flexible.
