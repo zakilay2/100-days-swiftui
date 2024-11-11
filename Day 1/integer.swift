@@ -1,3 +1,5 @@
+import Cocoa
+
 let score = 10
 
 let reallyBig = 100000000
