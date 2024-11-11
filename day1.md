@@ -7,8 +7,6 @@ In Swift, data storage can be handled with either variables or constants, depend
 
 Swift code typically follows the camelCase naming convention, which is standard in the language. Although semicolons aren’t required, they can be used when needed. In Swift, developers often prefer constants over variables to prevent accidental changes and improve optimization. For testing, values of variables can be printed to the console, which is helpful for debugging but not usually displayed to users in final applications.
 
-### Sample Code
-
 ```swift
 import UIKit
 
@@ -55,7 +53,8 @@ In Swift, text assigned to a constant or variable is called a string, defined by
 
 Swift provides several tools for working with strings:
 
-```.count```: Returns the number of characters in a string.
-```.uppercased()````: Converts all letters to uppercase.
-```.hasPrefix()``` and .hasSuffix(): Checks if a string starts or ends with specified characters.
+- ```.count```: Returns the number of characters in a string.
+- ```.uppercased()````: Converts all letters to uppercase.
+- ```.hasPrefix()``` and .hasSuffix(): Checks if a string starts or ends with specified characters.
+
 These functions demonstrate the basics of Swift’s string manipulation, which is extensive and flexible.
