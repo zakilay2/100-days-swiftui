@@ -33,7 +33,7 @@ playerName = "Sam"
 print(playerName)
 ```
 
-## Why does Swift have variables?
+### Why does Swift have variables?
 
 In Swift, variables are essential for storing and transforming temporary information in programs. They allow you to hold user inputs, downloaded data, or results from calculations. Variables are created with var and can be changed freely without reusing var, as seen in:
 
@@ -45,7 +45,17 @@ favoriteShow = "Doctor Who"
 
 Using var repeatedly to declare the same variable will cause errors, as Swift expects clear intent—either modifying an existing variable or creating a new one with a unique name. While variables are central to Swift programs, there are cases where they’re best avoided, which will be explained further in advanced concepts.
 
-## Why does Swift have constants as well as variables?
+### Why does Swift have constants as well as variables?
 
 In Swift, constants provide a secure way to store data that shouldn't change, unlike variables, which allow for modification. Constants are created with let instead of var, and once a constant’s value is set, it cannot be altered. Swift encourages using constants whenever a value remains unchanged, as this approach reduces the risk of accidental modifications and ensures important data remains stable. By using constants, you create a "contract" with Swift to keep the value fixed, giving you added control and peace of mind in your code.
 
+## How to create strings
+
+In Swift, text assigned to a constant or variable is called a string, defined by enclosing the text in double quotes. Strings can include alphabetic text, punctuation, emoji, and even quotes (using a backslash before internal quotes). Multi-line strings use triple quotes (""") for formatting.
+
+Swift provides several tools for working with strings:
+
+```.count```: Returns the number of characters in a string.
+```.uppercased()````: Converts all letters to uppercase.
+```.hasPrefix()``` and .hasSuffix(): Checks if a string starts or ends with specified characters.
+These functions demonstrate the basics of Swift’s string manipulation, which is extensive and flexible.
