@@ -1,3 +1,5 @@
+import Cocoa
+
 let actor = "Denzel Washington"
 let filename = "paris.jpg"
 let result = "⭐️ You win! ⭐️"
