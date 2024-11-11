@@ -66,6 +66,21 @@ Integers come with useful features like isMultiple(of:), which checks if an inte
 print(120.isMultiple(of: 3))
 ```
 
+## How to Store decimal Numbers
+
+In Swift, decimal numbers are stored as *floating-point numbers* (or `Double` by default). This storage method allows handling both very large and very small numbers by moving the decimal point, but it introduces small inaccuracies due to binary representation. For example, `0.1 + 0.2` might yield `0.30000000000000004`.
+
+#### Key Points:
+
+1. **Type Safety**: Swift treats integers (`Int`) and floating-point numbers (`Double`) as different types, preventing them from being mixed accidentally. To combine them, explicit type conversion is required (e.g., `Double(a) + b`).
+
+2. **Data Type Inference**: Swift infers whether a number is an `Int` or `Double` based on whether it includes a decimal point.
+
+3. **Consistency**: Once a variable’s type is set, it must retain that type (e.g., a variable declared as a string can’t later store an integer).
+
+4. **Operators**: Floating-point numbers support arithmetic and compound assignment operators just like integers.
+
+For legacy compatibility, Swift also supports `CGFloat`, which can be used interchangeably with `Double`.
 
 
 
