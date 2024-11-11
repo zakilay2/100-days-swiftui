@@ -58,7 +58,7 @@ let score = 10
 
 Swift allows extremely large or small integers, including negative values. For readability, underscores can be added to separate digits (e.g., let reallyBig = 100_000_000). Basic arithmetic operations can be applied to integers, like addition (+), subtraction (-), multiplication (*), and division (/).
 
-Swift also offers compound assignment operators that adjust and reassign a value more concisely, e.g., counter += 5 for adding 5 to counter.
+Swift also offers compound assignment operators that adjust and reassign a value more concisely, e.g., ```counter += 5``` for adding 5 to counter.
 
 Integers come with useful features like isMultiple(of:), which checks if an integer is a multiple of another, as in:
 
