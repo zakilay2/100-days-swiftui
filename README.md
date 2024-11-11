@@ -4,5 +4,5 @@ The "100 Days of SwiftUI" by Hacking with Swift is a free, beginner-friendly cou
 
 ## The Course
 
-[Day 0 - Preparation](https://www.hackingwithswift.com/100/swiftui/0)
-[Day 1 - Variables, constants, strings, and numbers]()
+- [Day 0 - Preparation](https://www.hackingwithswift.com/100/swiftui/0)
+- [Day 1 - Variables, constants, strings, and numbers]()
