@@ -7,30 +7,6 @@ In Swift, data storage can be handled with either variables or constants, depend
 
 Swift code typically follows the camelCase naming convention, which is standard in the language. Although semicolons aren’t required, they can be used when needed. In Swift, developers often prefer constants over variables to prevent accidental changes and improve optimization. For testing, values of variables can be printed to the console, which is helpful for debugging but not usually displayed to users in final applications.
 
-```swift
-import UIKit
-
-var greeting = "Hello, playground"
-
-var name = "Ted"
-name = "Rebecca"
-name = "Keeley"
-
-let character = "Daphne"
-let character = "Daphne"
-character = "Eloise"
-character = "Francesca"
-
-var playerName = "Roy"
-print(playerName)
-
-playerName = "Dani"
-print(playerName)
-
-playerName = "Sam"
-print(playerName)
-```
-
 ### Why does Swift have variables?
 
 In Swift, variables are essential for storing and transforming temporary information in programs. They allow you to hold user inputs, downloaded data, or results from calculations. Variables are created with var and can be changed freely without reusing var, as seen in:
