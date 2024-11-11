@@ -23,7 +23,7 @@ Using var repeatedly to declare the same variable will cause errors, as Swift ex
 
 In Swift, constants provide a secure way to store data that shouldn't change, unlike variables, which allow for modification. Constants are created with let instead of var, and once a constant’s value is set, it cannot be altered. Swift encourages using constants whenever a value remains unchanged, as this approach reduces the risk of accidental modifications and ensures important data remains stable. By using constants, you create a "contract" with Swift to keep the value fixed, giving you added control and peace of mind in your code.
 
-## How to create strings
+## How to Create Strings
 
 In Swift, text assigned to a constant or variable is called a string, defined by enclosing the text in double quotes. Strings can include alphabetic text, punctuation, emoji, and even quotes (using a backslash before internal quotes). Multi-line strings use triple quotes (""") for formatting.
 
@@ -34,3 +34,16 @@ Swift provides several tools for working with strings:
 - ```.hasPrefix()``` and .hasSuffix(): Checks if a string starts or ends with specified characters.
 
 These functions demonstrate the basics of Swift’s string manipulation, which is extensive and flexible.
+
+## 
+
+In Swift, standard strings are enclosed in double quotes and cannot contain line breaks, suitable for short text. For longer, more readable text blocks, Swift offers multi-line strings using triple quotes ("""). These strings preserve line breaks within the text, allowing it to span multiple lines in the code, as in:
+
+```swift
+var burns = """
+The best laid schemes
+O’ mice and men
+Gang aft agley
+"""
+```
+This format is helpful for large text blocks, though long single-line strings are sometimes preferable for searchability in shared code.
