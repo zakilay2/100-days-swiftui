@@ -6,3 +6,4 @@ The "100 Days of SwiftUI" by Hacking with Swift is a free, beginner-friendly cou
 
 - [Day 0 - Preparation](https://www.hackingwithswift.com/100/swiftui/0)
 - [Day 1 - Variables, constants, strings, and numbers](https://github.com/zakilay2/100-days-swiftui/tree/main/Day%201)
+- [Day 2 - Booleans, string interpolation, and checkpoint 1](https://github.com/zakilay2/100-days-swiftui/tree/main/Day%202)
