@@ -82,5 +82,31 @@ In Swift, decimal numbers are stored as *floating-point numbers* (or `Double` by
 
 For legacy compatibility, Swift also supports `CGFloat`, which can be used interchangeably with `Double`.
 
+### Why Does Swift Need Both Doubles and Integers?
 
+Swift provides different ways to store numbers: integers and doubles, each designed for specific types of values. These types are kept separate to avoid problems in calculations.
+
+#### Key Differences
+
+- **Integers**: Store whole numbers (e.g., 0, 1, -100).
+- **Doubles**: Store decimal numbers (e.g., 0.1, -1.001).
+
+Swift determines the type based on whether you include a decimal point:
+
+```swift
+var myInt = 1       // Integer
+var myDouble = 1.0  // Double
+```
+Although myInt and myDouble both represent "1," Swift won’t let you add them directly (e.g., ```var total = myInt + myDouble).``` This is a safety feature; a double can change to 1.1, 3.5, etc., making it unsafe to mix without explicit conversion. Although initially frustrating, this rule prevents potential errors.
+
+### Why is Swift a type-safe language?
+
+Swift supports various data types, such as strings, integers, and more. When a variable is created, Swift infers its type based on the assigned value and ensures it remains consistent. For example:
+
+```swift
+var meaningOfLife = 42 // Swift infers this as an integer
+meaningOfLife = "Forty two" // Swift gives error
+```
+
+Since ```meaningOfLife``` is initialized as an integer, its type can’t change later. Attempting to assign a string to it, like "Forty two", would result in an error. This type safety is beneficial as programs become more complex, allowing Swift to prevent type-related mistakes and helping maintain code reliability.
 
